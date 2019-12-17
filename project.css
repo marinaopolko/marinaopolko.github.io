@@ -1,0 +1,68 @@
+body{
+    box-sizing: border-box;
+}
+.form-Data{
+    width: 40%;
+    text-align: center;
+}
+table{
+    margin: 20px auto;
+    border: 2px solid purple;
+    border-collapse: collapse;
+    min-width: 60px;
+    min-height: 60px;
+}
+td{
+    width: 30px;
+    height: 30px;
+    border: 1px solid snow;
+}
+h2{
+    font-style: oblique;
+    text-shadow: 1px 1px 0 hsl(252, 100%, 20%),
+    2px 2px 0 hsl(252, 23%, 64%),
+    3px 3px 0 hsl(252, 23%, 73%),
+    4px 4px 0 hsl(252, 23%, 75%),
+    5px 5px 0 hsl(252, 23%, 85%),
+    6px 6px 0 hsl(252, 23%, 90%);
+    color: hsl(252, 100%, 12%);
+    transition: all 1s;
+}
+h2:hover{
+    text-shadow: 1px -1px 0 hsl(290,100%,40%),
+    2px -2px 0 hsl(290,100%,40%),
+    3px -3px 0 hsl(280,100%,60%),
+    4px -4px 0 hsl(280,100%,60%),
+    5px -5px 0 hsl(270,100%,75%),
+    6px -6px 0 hsl(270,100%,80%),
+    7px -7px 0 hsl(260,100%,85%);
+    color: hsl(254,100%,30%);
+}
+fieldset{
+    margin-bottom: 30px;
+}
+#loadBtn{
+    margin-top: 20px;
+}
+#play{
+    margin-top: 20px;
+}
+button{
+    width: 80px;
+    height: 30px;
+    font-family: "RobotoBold", sans-serif;
+    background: lightsteelblue;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 1px;
+    border: 1px solid steelblue;
+    outline: none!important;
+}
+button:hover{
+    background: lightblue;
+    box-shadow: 2px 4px 6px lightblue;
+    border: none;
+}
+input#tableWidth, input#tableHeight{
+    height: 25px;
+}
